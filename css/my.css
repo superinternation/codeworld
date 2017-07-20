@@ -42,4 +42,20 @@ html,body{
 	margin-top: 15px;
 }
 
+/*.bgimgone{
+	width: 100%;
+	height: 300px;
+}*/
+
+.bgimgone{
+	margin-top: 50px;
+}
+
+.bgimgone .container-fluid{
+	width: 100%;
+	height:40rem;
+	background: url(../img/bgone.jpg) no-repeat fixed center center;
+	background-origin:100% 100%;
+}
+
 
