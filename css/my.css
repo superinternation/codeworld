@@ -81,12 +81,22 @@ footer{
 	color: #fff;
 }
 
+footer a{
+	color: #fff;
+}
+
+footer a:hover{
+	text-decoration:none;
+	color: #F6FC45;
+}
+
 footer .container>img{
 	margin-top: 5px;
 }
 
 footer .container ul li{
 	display: inline-block;
+	margin-left: 20px;
 
 }
 
@@ -107,9 +117,8 @@ footer .container ul li{
 @media screen and (max-width: 768px){
 	footer .container>ul.list-unstyled{
 		display: block;
-		width: 90px;
-		border:1px solid red;
 		margin: 0 auto;
+		text-align: center;
 	}
 }
 
