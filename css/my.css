@@ -24,6 +24,12 @@ html,body{
 	z-index: 1;
 }
 
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+
 .rotation{
 	margin-top: -20px;
 }
@@ -37,7 +43,7 @@ html,body{
 }
 
 
-.descriptionone p,.descriptiontwo p,.descriptionthr p{
+.descriptionone p,.descriptiontwo p,.descriptionthr p,.descriptionfor p,.descriptionfiv p{
 	line-height: 30px;
 	margin-top: 15px;
 }
@@ -56,6 +62,77 @@ html,body{
 	height:40rem;
 	background: url(../img/bgone.jpg) no-repeat fixed center center;
 	background-origin:100% 100%;
+}
+
+.sectwo{
+	margin-top: 55px;
+}
+
+.secone p,.sectwo p{
+	font-size: 1.6rem;
+}
+
+.sectwo .container>.row{
+	margin-bottom: 55px;
+}
+
+footer{
+	background-color:#3F8DBF;
+	color: #fff;
+}
+
+footer .container>img{
+	margin-top: 5px;
+}
+
+footer .container ul li{
+	display: inline-block;
+
+}
+
+@media screen(min-width: 768px){
+	footer .container>img{
+		float: left;
+}
+}
+
+
+
+@media screen and(max-width: 990px){
+	footer>.container{
+		padding-top: 30px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	footer .container>ul.list-unstyled{
+		display: block;
+		width: 90px;
+		border:1px solid red;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 768px){
+	footer .container>img{
+		display: block;
+		margin:0 auto;
+	}
+}
+
+@media screen and (min-width: 768px){
+	footer .container>ul.list-unstyled{
+		margin-top: 18px;
+		float: right;
+	}
+}
+@media screen and (max-width: 768px){
+	footer .container>ul>li{
+		display: inline-block;
+		margin-top: 8px;
+		margin-left: 18px;
+		line-height: 20px;
+}
 }
 
 
