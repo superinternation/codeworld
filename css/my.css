@@ -169,8 +169,8 @@ span.glyphicon.glyphicon-search {
     border-color: #ccc;
 }
 
-.active {
-    background: #E2E5E5;
+.btns-active {
+    background: #EEE;
     display: inline-block;
     margin-bottom: 0;
     font-weight: normal;

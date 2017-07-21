@@ -18,7 +18,7 @@ window.onload=function()
 				oIp[i].className="init-btn-class";
 				aChdiv[i].style.display="none";
 			}
-			this.className="active";
+			this.className="btns-active";
 			aChdiv[this.index].style.display="block"
 		}
 	}
