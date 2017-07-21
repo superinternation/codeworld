@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+html{
+	font-size: 10px;
+}
+
 html,body{
 	height: 100%;
 	font-family: 微软雅黑;
@@ -7,6 +11,10 @@ html,body{
 
 .navbar-header img{
 	height:50px;
+}
+
+.navbar{
+	margin-bottom: 24px;
 }
 
 .navbar-default{
@@ -31,7 +39,7 @@ html,body{
 }
 
 .rotation{
-	margin-top: -20px;
+	margin-top: -2rem;
 }
 
 .carousel-control.left,.carousel-control.right{
@@ -39,13 +47,13 @@ html,body{
 }
 
 .mains .secone{
-	margin-top: 15px;
+	margin-top: 1.5rem;
 }
 
 
 .descriptionone p,.descriptiontwo p,.descriptionthr p,.descriptionfor p,.descriptionfiv p{
-	line-height: 30px;
-	margin-top: 15px;
+	line-height: 3rem;
+	margin-top: 1.5rem;
 }
 
 /*.bgimgone{
@@ -54,7 +62,7 @@ html,body{
 }*/
 
 .bgimgone{
-	margin-top: 50px;
+	margin-top: 5rem;
 }
 
 .bgimgone .container-fluid{
@@ -65,15 +73,15 @@ html,body{
 }
 
 .sectwo{
-	margin-top: 55px;
+	margin-top: 5.5rem;
 }
 
 .secone p,.sectwo p{
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 }
 
 .sectwo .container>.row{
-	margin-bottom: 55px;
+	margin-bottom: 5.5rem;
 }
 
 footer{
@@ -91,57 +99,84 @@ footer a:hover{
 }
 
 footer .container>img{
-	margin-top: 5px;
+	margin-top: .5rem;
 }
 
 footer .container ul li{
 	display: inline-block;
-	margin-left: 20px;
+	margin-left: 2rem;
 
 }
 
-@media screen(min-width: 768px){
+span.glyphicon.glyphicon-search{
+	position:absolute;
+	top:0.7rem;
+	left:2rem;
+	font-size: 1.8rem; 
+	color: #F7F4F4;
+}
+
+.cent .container .row .col-md-5.col-xs-12.text-center{
+	margin-bottom: 20px;
+}
+
+.cent .container .row:first-Child{
+	margin-bottom: 20px;
+}
+
+
+
+
+/*当屏幕大于等于768px时*/
+
+@media screen and (min-width: 768px){
+	footer .container>ul.list-unstyled{
+		margin-top: 1.8rem;
+		float: right;
+	}
+
 	footer .container>img{
-		float: left;
-}
-}
-
-
-
-@media screen and(max-width: 990px){
-	footer>.container{
-		padding-top: 30px;
+	float: left;
 	}
 }
 
-@media screen and (max-width: 768px){
+
+
+
+/*当屏幕小于990px时*/
+
+@media screen and(max-width: 990px){
+	footer>.container{
+		padding-top: 3rem;
+	}
+
+	.cent>.container>.pull-btn{
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 767px){
+
+	html{
+		font-size: 8px;
+	}
+
 	footer .container>ul.list-unstyled{
 		display: block;
 		margin: 0 auto;
 		text-align: center;
 	}
-}
 
-@media screen and (max-width: 768px){
-	footer .container>img{
+		footer .container>img{
 		display: block;
 		margin:0 auto;
 	}
-}
 
-@media screen and (min-width: 768px){
-	footer .container>ul.list-unstyled{
-		margin-top: 18px;
-		float: right;
-	}
-}
-@media screen and (max-width: 768px){
-	footer .container>ul>li{
+		footer .container>ul>li{
 		display: inline-block;
-		margin-top: 8px;
-		margin-left: 18px;
-		line-height: 20px;
+		margin-top: .8rem;
+		margin-left: 1.8rem;
+		line-height: 2rem;
 }
 }
-
 
