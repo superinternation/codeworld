@@ -1,36 +1,36 @@
 @charset "utf-8";
 
-html{
-	font-size: 10px;
+html {
+    font-size: 10px;
 }
 
-html,body{
-	height: 100%;
-	font-family: 微软雅黑;
+html,
+body {
+    height: 100%;
+    font-family: 微软雅黑;
 }
 
-.navbar-header img{
-	height:50px;
+.navbar-header img {
+    height: 50px;
 }
 
-.navbar{
-	margin-bottom: 24px;
-	border:none;
+.navbar {
+    margin-bottom: 24px;
 }
 
-.navbar-default{
-	background: #fff;
+.navbar-default {
+    background: #fff;
 }
 
-.navbar-default .container{
-	position: relative;
+.navbar-default .container {
+    position: relative;
 }
 
-#bs-example-navbar-collapse-1{
-	position: absolute;
-	width: 100%;
-	background: #fff;
-	z-index: 1;
+#bs-example-navbar-collapse-1 {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    z-index: 1;
 }
 
 
@@ -39,195 +39,211 @@ html,body{
     background-color: #fff;
 }
 
-.rotation{
-	margin-top: -2rem;
+.rotation {
+    margin-top: -2rem;
 }
 
-.carousel-control.left,.carousel-control.right{
-	background-image: none;
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
 }
 
-.mains .secone{
-	margin-top: 1.5rem;
+.mains .secone {
+    margin-top: 1.5rem;
 }
 
 
-.descriptionone p,.descriptiontwo p,.descriptionthr p,.descriptionfor p,.descriptionfiv p{
-	line-height: 3rem;
-	margin-top: 1.5rem;
+.descriptionone p,
+.descriptiontwo p,
+.descriptionthr p,
+.descriptionfor p,
+.descriptionfiv p {
+    line-height: 3rem;
+    margin-top: 1.5rem;
 }
+
 
 /*.bgimgone{
 	width: 100%;
 	height: 300px;
 }*/
 
-.bgimgone{
-	margin-top: 5rem;
+.bgimgone {
+    margin-top: 5rem;
 }
 
-.bgimgone .container-fluid{
+.bgimgone .container-fluid {
+    width: 100%;
+    height: 40rem;
+    background: url(../img/bgone.jpg) no-repeat fixed center center;
+    background-origin: 100% 100%;
+}
+
+.sectwo {
+    margin-top: 5.5rem;
+}
+
+.secone p,
+.sectwo p {
+    font-size: 1.5rem;
+}
+
+.sectwo .container>.row {
+    margin-bottom: 5.5rem;
+}
+
+footer {
+    background-color: #3F8DBF;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #F6FC45;
+}
+
+footer .container>img {
+    margin-top: .5rem;
+}
+
+footer .container ul li {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+span.glyphicon.glyphicon-search {
+    position: absolute;
+    top: 0.7rem;
+    left: 2rem;
+    font-size: 1.8rem;
+    color: #F7F4F4;
+}
+
+.cent .container .row .col-md-5.col-xs-12.text-center {
+    margin-bottom: 2rem;
+}
+
+.cent .container .row:first-Child {
+    margin-bottom: 2rem;
+}
+
+.cent>.container>.row.row-two{
 	width: 100%;
-	height:40rem;
-	background: url(../img/bgone.jpg) no-repeat fixed center center;
-	background-origin:100% 100%;
+	margin-left: .2rem;
 }
 
-.sectwo{
-	margin-top: 5.5rem;
+#chip{
+	padding-left: -20rem;
 }
 
-.secone p,.sectwo p{
-	font-size: 1.5rem;
+.cent>.container>.row.row-two>.col-md-12 {
+    height: 30rem;
+    background: red;
+    display: none;
 }
 
-.sectwo .container>.row{
-	margin-bottom: 5.5rem;
+.init-btn-class {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
 }
 
-footer{
-	background-color:#3F8DBF;
-	color: #fff;
+.cent .container .row .col-md-5.col-xs-12.text-center .active {
+    background: aqua;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #333;
+    border-color: #ccc;
 }
 
-footer a{
-	color: #fff;
-}
-
-footer a:hover{
-	text-decoration:none;
-	color: #F6FC45;
-}
-
-footer .container>img{
-	margin-top: .5rem;
-}
-
-footer .container ul li{
-	display: inline-block;
-	margin-left: 2rem;
-
-}
-
-span.glyphicon.glyphicon-search{
-	position:absolute;
-	top:0.7rem;
-	left:2rem;
-	font-size: 1.8rem; 
-	color: #F7F4F4;
-}
-
-.cent .container .row .col-md-5.col-xs-12.text-center{
-	margin-bottom: 20px;
-}
-
-.cent .container .row:first-Child{
-	margin-bottom: 20px;
-}
-
-.cent > .container > .row.row-two>.col-md-12{
-	height: 30rem;
-	background: red;
-	display: none;
-}
-
-.init-btn-class{
-	display: inline-block;
-  margin-bottom: 0;
-  font-weight: normal;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  background-image: none;
-  border: 1px solid transparent;
-  white-space: nowrap;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.5;
-  border-radius: 3px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-   color: #333;
-  background-color: #fff;
-  border-color: #ccc;
-}
-
-.cent .container .row .col-md-5.col-xs-12.text-center .active{
-	  background: aqua;
-	  display: inline-block;
-	  margin-bottom: 0;
-	  font-weight: normal;
-	  text-align: center;
-	  vertical-align: middle;
-	  cursor: pointer;
-	  background-image: none;
-	  border: 1px solid transparent;
-	  white-space: nowrap;
-	  padding: 6px 12px;
-	  font-size: 14px;
-	  line-height: 1.5;
-	  border-radius: 3px;
-	  -webkit-user-select: none;
-	  -moz-user-select: none;
-	  -ms-user-select: none;
-	  user-select: none;
-	  color: #333;
-	  border-color: #ccc;
-}
 
 
 /*当屏幕大于等于768px时*/
 
-@media screen and (min-width: 768px){
-	footer .container>ul.list-unstyled{
-		margin-top: 1.8rem;
-		float: right;
-	}
+@media screen and (min-width: 768px) {
+    footer .container>ul.list-unstyled {
+        margin-top: 1.8rem;
+        float: right;
+    }
 
-	footer .container>img{
-	float: left;
-	}
+    footer .container>img {
+        float: left;
+    }
 }
+
 
 
 
 
 /*当屏幕小于990px时*/
 
-@media screen and(max-width: 990px){
-	footer>.container{
-		padding-top: 3rem;
-	}
+@media screen and(max-width: 990px) {
+    footer>.container {
+        padding-top: 3rem;
+    }
 
-	.cent>.container>.pull-btn{
-		margin: 0 auto;
-	}
+    .cent>.container>.pull-btn {
+        margin: 0 auto;
+    }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
 
-	html{
-		font-size: 8px;
-	}
+    html {
+        font-size: 8px;
+    }
 
-	footer .container>ul.list-unstyled{
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-	}
+    footer .container>ul.list-unstyled {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
 
-		footer .container>img{
-		display: block;
-		margin:0 auto;
-	}
+    footer .container>img {
+        display: block;
+        margin: 0 auto;
+    }
 
-		footer .container>ul>li{
-		display: inline-block;
-		margin-top: .8rem;
-		margin-left: 1.8rem;
-		line-height: 2rem;
+    footer .container>ul>li {
+        display: inline-block;
+        margin-top: .8rem;
+        margin-left: 1.8rem;
+        line-height: 2rem;
+    }
 }
-}
-
