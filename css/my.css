@@ -15,6 +15,7 @@ html,body{
 
 .navbar{
 	margin-bottom: 24px;
+	border:none;
 }
 
 .navbar-default{
