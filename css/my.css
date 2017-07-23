@@ -52,23 +52,6 @@ body {
     margin-top: 1.5rem;
 }
 
-.mainsshop{
-    margin-top: -2rem;
-    height: 30rem;
-    background: #2f363d url(../img/bgmain.svg);
-    padding-top: 6rem;
-}
-
-.mainsshop h1{
-    color: #fff;
-    font-size: 5rem;
-}
-
-.mainsshop p{
-    color: #969A9D;
-    font-size: 2.5rem;
-}
-
 
 .descriptionone p,
 .descriptiontwo p,
@@ -242,6 +225,54 @@ span.glyphicon.glyphicon-search {
     color: #959da5;
     text-decoration: none;
 }
+
+
+.mainsshop{
+    margin-top: -2rem;
+    background: #2f363d url(../img/bgmain.svg);
+    padding-top: 6rem;
+}
+
+.mainsshop h1{
+    color: #fff;
+    font-size: 5rem;
+}
+
+.mainsshop p{
+    color: #969A9D;
+    font-size: 2.5rem;
+}
+
+.mainsshop>.container>.row>.centblkone{
+    background: url(../img/centblkone.png);
+}
+
+.mainsshop>.container>.row>.centblktwo{
+    background: url(../img/centblktwo.png);
+}
+.mainsshop>.container>.row>.centblkthr{
+    background: url(../img/centblkthr.png);
+}
+.mainsshop>.container>.row>.centblkfor{
+    background: url(../img/centblkfor.png);
+}
+
+.mainsshop>.container>.row{
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.mainsshop>.container>.row>div{
+    padding-bottom:2rem;
+}
+
+.mainsshop>.container>.row>.centblkone>div,.mainsshop>.container>.row>.centblktwo>div,.mainsshop>.container>.row>.centblkthr>div,.mainsshop>.container>.row>.centblkfor>div{
+    width: 96px;
+    height: 96px;
+    border-radius: 3px;
+}
+
+
 
 /*当屏幕大于等于768px时*/
 
