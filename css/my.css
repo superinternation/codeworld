@@ -221,6 +221,11 @@ span.glyphicon.glyphicon-search {
 }
 
 
+.footer-lg .container .row .col-md-4 a{
+    color: #959da5;
+    text-decoration: none;
+}
+
 /*当屏幕大于等于768px时*/
 
 @media screen and (min-width: 768px) {
