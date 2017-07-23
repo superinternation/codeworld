@@ -52,6 +52,23 @@ body {
     margin-top: 1.5rem;
 }
 
+.mainsshop{
+    margin-top: -2rem;
+    height: 30rem;
+    background: #2f363d url(../img/bgmain.svg);
+    padding-top: 6rem;
+}
+
+.mainsshop h1{
+    color: #fff;
+    font-size: 5rem;
+}
+
+.mainsshop p{
+    color: #969A9D;
+    font-size: 2.5rem;
+}
+
 
 .descriptionone p,
 .descriptiontwo p,
