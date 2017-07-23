@@ -273,6 +273,14 @@ span.glyphicon.glyphicon-search {
 }
 
 
+.market{
+    margin-top: 5rem;
+}
+
+.market .container .row .col-md-12 .nav-stacked a{
+    color: #586069;
+}
+
 
 /*当屏幕大于等于768px时*/
 
