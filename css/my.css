@@ -306,6 +306,12 @@ span.glyphicon.glyphicon-search {
     border-left:1px solid #e1e4e8;
 }
 
+.market>.container>.row>.col-md-8 .right-wite{
+    width:80%;
+    float: right;
+    line-height: 1.8rem;
+}
+
 .market>.container>.row>.col-md-8>.row{
     margin-bottom: 3rem;
 }
