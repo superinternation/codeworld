@@ -281,6 +281,45 @@ span.glyphicon.glyphicon-search {
     color: #586069;
 }
 
+.market>.container>.row>.col-md-8>.row>.col-md-6>.left-img{
+    width:56px;
+    height:56px;
+    border-radius: 50%;
+    background-color: #fc2b6a;
+    line-height: 56px;
+    box-shadow: 0 1px 5px rgba(27,31,35,0.15);
+}
+
+.market>.container>.row>.col-md-8>.row>.sm-xs-top{
+    margin-top: 1rem;
+}
+
+.market>.container>.row>.col-md-8>.row>.col-md-6>.left-img>img{
+    height:76%; 
+    display: table-cell;
+    margin: 0 auto;
+    padding-top:.6rem;
+}
+
+.market>.container>.row>.col-md-8{
+    padding-left: 2rem;
+    border-left:1px solid #e1e4e8;
+}
+
+.market>.container>.row>.col-md-8>.row{
+    margin-bottom: 3rem;
+}
+
+.market>.container>.row>.col-md-8>.row>h4{
+    margin: 2rem 0;
+    font-size: 1.6rem;
+    color: #586069;
+}
+
+.market>.container>.row>.col-md-8>.row>.col-md-6:last{
+    margin-bottom: 5rem;
+}
+
 
 /*当屏幕大于等于768px时*/
 
