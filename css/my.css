@@ -14,8 +14,8 @@ body {
     height: 50px;
 }
 
-.navbar {
-    margin-bottom: 24px;
+.navbar{
+    margin-bottom: 0;
 }
 
 .navbar-default {
@@ -37,10 +37,6 @@ body {
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
     background-color: #fff;
-}
-
-.rotation{
-    margin-top: -2.5rem;
 }
 
 .carousel-control.left,
@@ -119,7 +115,7 @@ span.glyphicon.glyphicon-search {
     position: absolute;
     top: 0.7rem;
     left: 2rem;
-    font-size: 1.8rem;
+    font-size:2rem;
     color: #F7F4F4;
 }
 
@@ -333,26 +329,11 @@ span.glyphicon.glyphicon-search {
 
 
 
-/*当屏幕大于等于768px时*/
-
-@media screen and (min-width: 768px) {
-    footer .container>ul.list-unstyled {
-        margin-top: 1.8rem;
-        float: right;
-    }
-
-    footer .container>img {
-        float: left;
-    }
-}
-
-
-
 
 
 /*当屏幕小于990px时*/
 
-@media screen and(max-width: 990px) {
+@media screen and (max-width: 992px) {
     footer>.container {
         padding-top: 3rem;
     }
@@ -370,7 +351,20 @@ span.glyphicon.glyphicon-search {
         margin-bottom: 3rem;
     }
 
+    #chip{
+        margin-bottom: 1rem;
+    }
+
+    #formtop span{
+        margin: .5rem 0 0 .5rem;
+    }
+
+    .footer-lg .container .row ul{
+      text-align: center;
+    }
+
 }
+
 
 @media screen and (max-width: 767px) {
 
@@ -397,3 +391,20 @@ span.glyphicon.glyphicon-search {
     }
 
 }
+
+
+
+/*当屏幕大于等于768px时*/
+
+@media screen and (min-width: 768px) {
+    footer .container>ul.list-unstyled {
+        margin-top: 1.8rem;
+        float: right;
+    }
+
+    footer .container>img {
+        float: left;
+    }
+}
+
+
