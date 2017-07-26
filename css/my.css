@@ -226,6 +226,10 @@ span.glyphicon.glyphicon-search {
     text-decoration: none;
 }
 
+.footer-lg>.container .row .ftr-right{
+    float: right;
+}
+
 
 .mainsshop{
     margin-top: -2rem;
@@ -281,7 +285,7 @@ span.glyphicon.glyphicon-search {
     color: #586069;
 }
 
-.market>.container>.row>.col-md-8>.row>.col-md-6>.left-img{
+.market>.container>.row>.col-md-7>.row>.col-md-6>.left-img{
     width:56px;
     height:56px;
     border-radius: 50%;
@@ -290,41 +294,43 @@ span.glyphicon.glyphicon-search {
     box-shadow: 0 1px 5px rgba(27,31,35,0.15);
 }
 
-.market>.container>.row>.col-md-8>.row>.sm-xs-top{
+.market>.container>.row>.col-md-7>.row>.sm-xs-top{
     margin-top: 1rem;
 }
 
-.market>.container>.row>.col-md-8>.row>.col-md-6>.left-img>img{
+.market>.container>.row>.col-md-7>.row>.col-md-6>.left-img>img{
     height:76%; 
     display: table-cell;
     margin: 0 auto;
     padding-top:.6rem;
 }
 
-.market>.container>.row>.col-md-8{
+.market>.container>.row>.col-md-7{
     padding-left: 2rem;
     border-left:1px solid #e1e4e8;
 }
 
-.market>.container>.row>.col-md-8 .right-wite{
+.market>.container>.row>.col-md-7 .right-wite{
     width:80%;
     float: right;
     line-height: 1.8rem;
 }
 
-.market>.container>.row>.col-md-8>.row{
+.market>.container>.row>.col-md-7>.row{
     margin-bottom: 3rem;
 }
 
-.market>.container>.row>.col-md-8>.row>h4{
+.market>.container>.row>.col-md-7>.row>h4{
     margin: 2rem 0;
     font-size: 1.6rem;
     color: #586069;
 }
 
-.market>.container>.row>.col-md-8>.row>.col-md-6:last{
+.market>.container>.row>.col-md-7>.row>.col-md-6:last{
     margin-bottom: 5rem;
 }
+
+
 
 
 /*当屏幕大于等于768px时*/
@@ -355,6 +361,15 @@ span.glyphicon.glyphicon-search {
         margin: 0 auto;
     }
 
+    .footer-lg .container .row .ftr-right{
+        clear: both;
+        text-align: center;
+    }
+
+    .market .container .row .mg-bottom {
+        margin-bottom: 3rem;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -380,4 +395,5 @@ span.glyphicon.glyphicon-search {
         margin-left: 1.8rem;
         line-height: 2rem;
     }
+
 }
